@@ -23,7 +23,7 @@
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-    <div class="container-fluid anim1">
+    <div class="container-fluid anim1 zoom">
       <a class="navbar-brand fynd" href="index.html">
         <h2>Fynd</h2>
       </a>
@@ -59,15 +59,15 @@
     </div>
 
   </nav>
-  <div class="main-section anim2">
+  <div class="main-section anim2 zoom">
     <!-- PRICING -->
     <center>
-      <h1>Choose a plan</h1>
+      <h1>Choose a plan</h1><br>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Facere illum obcaecati inventore velit laborum earum.</p>
-    </center>
+      <br>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col col-sm-12 col-lg-4 col-md-12">
-          <div class="card card1 mb-4 rounded-3 shadow-sm">
+        <div class="col col-sm-12 col-lg-4">
+          <div class="card card1 mb-4 rounded-3 shadow-sm" id="card1">
             <div class="card-body">
               <h1>Starter</h1>
               <p>Contrary to popular</p>
@@ -85,8 +85,11 @@
             </div>
           </div>
         </div>
-        <div class="col col-sm-12 col-lg-4 col-md-12" >
+        <div class="col col-lg-4 col-sm-12">
           <div class="card card1 mb-4 rounded-3 shadow-sm">
+            <div class="">
+
+            </div>
             <div class="card-body">
               <h1>Starter</h1>
               <p>Contrary to popular</p>
@@ -104,8 +107,11 @@
             </div>
           </div>
         </div>
-        <div class="col col-sm-12 col-lg-4 col-md-12">
-          <div class="card card1 mb-4 rounded-3 shadow-sm ">
+        <div class="col col-lg-4 col-sm-12">
+          <div class="card card1 mb-4 rounded-3 shadow-md ">
+            <div class="">
+
+            </div>
             <div class="card-body">
               <h1>Starter</h1>
               <p>Contrary to popular</p>
@@ -129,14 +135,16 @@
     <!-- footer -->
 
   </div>
-  <footer class="footer">
-    <div class="row">
-      <div class="col col-lg-10">
-        <h1 class="footer-h1">Contrary to popular belief,<br> Lorem Ipsum is not</h1>
-      </div>
-      <div class="col col-lg-2">
-        <img class="googlep" src="Image\googlep.png" alt="" width="150px">
-        <img src="Image\apple.png" alt="" width="170px">
+  <footer class="footer" style="margin-top: 50px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="footer-h1 ele">Contrary to popular belief,<br> Lorem Ipsum is not</h1>
+        </div>
+        <div class="col-lg-6 ele">
+          <a href="#" class="ele3"><img class="googlep" src="Image\googlep.png" alt="" width="150px"></a><br>
+          <a href="#" class="ele3"><img src="Image\apple.png" alt="" width="170px"></a>
+        </div>
       </div>
     </div>
   </footer>

@@ -1,14 +1,3 @@
-@media screen and (max-width: 400px) {
-  body {
-    background-color: lavender;
-    margin-left: 50px;
-    margin-right:50px;
-    padding-left: 215px
-  }
-}
-
-
-
 .fynd {
   padding-left: 120px;
 }
@@ -23,18 +12,24 @@
 }
 
 footer {
-  padding: 30px 30px 20px 30px;
+  /* padding: 30px 30px 20px 30px;
   background-color: #2ECC71;
   color: #fff;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
-  text-align: left;
+  text-align: left; */
+  background-color: #2ECC71;
+  padding: 30px 30px 20px 30px;
+}
+
+.ele3 {
+  margin-left: 400px;
 }
 
 .ele {
-  padding-left: 80px;
+  padding-left: 20px;
 }
 
 .googlep {
@@ -81,10 +76,27 @@ img {
 
   .first {
     margin-left: -70px;
+    zoom: 200%;
+  }
+
+  .zoom {
+    zoom:200%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .second {
+    margin-top: -80px;
   }
 
   .ele {
-    padding-left: 30px;
+    margin-left: -50px;
+  }
+
+  .ele3 {
+    margin-left: 0;
   }
 
   .image {
@@ -113,22 +125,22 @@ img {
   }
 
   .step1 {
-    margin-left: 20px;
+    margin-left: -10px;
     margin-bottom: 10px;
   }
 
   .step2 {
-    margin-left: 30px;
+    margin-left: -10px;
     margin-bottom: 10px;
   }
 
   .step3 {
-    margin-left: -30px;
+    margin-left: -60px;
     margin-bottom: 10px;
   }
 
   .ele2 {
-    padding-left: 20px;
+    padding-left: 0;
   }
 
   .card1 {
@@ -150,6 +162,14 @@ img {
 
   .con {
     margin-left: -200px;
+  }
+
+  .size {
+    margin-left: -10px;
+  }
+
+  .size2 {
+    margin-left: -100px;
   }
 }
 
@@ -227,18 +247,7 @@ img {
   padding: 60px 40px 40px 40px;
 }
 
-.main-section {
-  margin-top: 60px;
-  padding: 60px 40px 40px 40px;
-}
 
-.card1 {
-  margin-left: 50px;
-  height: 600px;
-  width: 350px;
-  border-radius: 12px;
-  box-shadow: 4px 4px 4px 2px #00000040;
-}
 
 .bi-check-circle {
   color: green;
@@ -251,7 +260,7 @@ img {
 }
 
 .checkbox {
-  padding-left: 70px;
+  padding-left: 20px;
   padding-top: 20px;
 }
 
@@ -261,4 +270,19 @@ img {
 
 .con2 {
   padding-left: 80px;
+}
+
+/* pricing */
+.card-body{
+ margin-top: 40px;
+}
+.main-section {
+  margin-top: 60px;
+  padding: 40px 40px 40px 40px;
+}
+
+.card1 {
+  margin-left: 40px;
+  height: 600px;
+  width: 350px;
 }
